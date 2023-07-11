@@ -19,4 +19,5 @@
 module use /g/data/v10/public/modules/modulefiles
 module load dea
 
+#run python script to extract Water Observation statistics by tiles, for those waterbodies that cover more than one tile
 python extractWOFS_by_multitile.py
